@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/routes/user/user-detail.tsx"],
+  "sourcesContent": ["export default function UserDetail() {\n  return (\n    <div>\n      <div>this is user detail</div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAGM;AAHS,SAAR,aAA8B;AACnC,SACE,mDAAC,SACC,6DAAC,SAAI,mCAAL;AAAA;AAAA;AAAA;AAAA,SAAwB,KAD1B;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/routes/user.tsx"],
+  "sourcesContent": ["import { Outlet } from '@remix-run/react';\n\nexport default function UserLayout() {\n  return (\n    <div>\n      <div>this is user layout</div>\n      <div>\n        <p>context area</p>\n        <Outlet />\n      </div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAKM;AAHS,SAAR,aAA8B;AACnC,SACE,mDAAC,SACC;AAAA,uDAAC,SAAI,mCAAL;AAAA;AAAA;AAAA;AAAA,WAAwB;AAAA,IACxB,mDAAC,SACC;AAAA,yDAAC,OAAE,4BAAH;AAAA;AAAA;AAAA;AAAA,aAAe;AAAA,MACf,mDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,aAAQ;AAAA,SAFV;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OALF;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;",
+  "names": []
+}

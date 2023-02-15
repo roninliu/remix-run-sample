@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/routes/user/_index.tsx"],
+  "sourcesContent": ["export default function _Index() {\n  return (\n    <div>\n      <div>this is user _index</div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAGM;AAHS,SAAR,SAA0B;AAC/B,SACE,mDAAC,SACC,6DAAC,SAAI,mCAAL;AAAA;AAAA;AAAA;AAAA,SAAwB,KAD1B;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

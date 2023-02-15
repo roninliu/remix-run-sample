@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../src/routes/user/baindex.tsx"],
+  "sourcesContent": ["export default function Index() {\n  return (\n    <div>\n      <div>this is user index</div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAGM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,SACC,6DAAC,SAAI,kCAAL;AAAA;AAAA;AAAA;AAAA,SAAuB,KADzB;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

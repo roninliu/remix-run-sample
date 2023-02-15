@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/root.tsx"],
+  "sourcesContent": ["import type { LinksFunction, MetaFunction } from '@remix-run/node';\nimport { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';\n\nimport styles from './style.css';\n\nexport const meta: MetaFunction = () => ({\n  charset: 'utf-8',\n  title: 'ODP APP',\n  viewport: 'width=device-width,initial-scale=1',\n});\n\nexport const links: LinksFunction = () => [{ rel: 'stylesheet', href: styles }];\n\nexport default function App() {\n  return (\n    <html lang='zh-CN' className='h-100vh'>\n      <head>\n        <Meta />\n        <Links />\n      </head>\n      <body className='min-h-full m-0 p-0'>\n        <Outlet />\n        <ScrollRestoration />\n        <Scripts />\n        <LiveReload />\n      </body>\n    </html>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;AAiBQ;AAZD,IAAM,OAAqB,OAAO;AAAA,EACvC,SAAS;AAAA,EACT,OAAO;AAAA,EACP,UAAU;AACZ;AAEO,IAAM,QAAuB,MAAM,CAAC,EAAE,KAAK,cAAc,MAAM,cAAO,CAAC;AAE/D,SAAR,MAAuB;AAC5B,SACE,mDAAC,UAAK,MAAK,SAAQ,WAAU,WAC3B;AAAA,uDAAC,UACC;AAAA,yDAAC,UAAD;AAAA;AAAA;AAAA;AAAA,aAAM;AAAA,MACN,mDAAC,WAAD;AAAA;AAAA;AAAA;AAAA,aAAO;AAAA,SAFT;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IACA,mDAAC,UAAK,WAAU,sBACd;AAAA,yDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,aAAQ;AAAA,MACR,mDAAC,uBAAD;AAAA;AAAA;AAAA;AAAA,aAAmB;AAAA,MACnB,mDAAC,aAAD;AAAA;AAAA;AAAA;AAAA,aAAS;AAAA,MACT,mDAAC,gBAAD;AAAA;AAAA;AAAA;AAAA,aAAY;AAAA,SAJd;AAAA;AAAA;AAAA;AAAA,WAKA;AAAA,OAVF;AAAA;AAAA;AAAA;AAAA,SAWA;AAEJ;",
+  "names": []
+}
